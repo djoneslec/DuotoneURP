@@ -9,7 +9,7 @@
     }
   ],
   "dependencies": {
-    "com.unity.render-pipelines.universal": "14.0.9",
+    "com.unity.render-pipelines.universal": "14.0.8",
     "jp.keijiro.danish-statues": "1.0.0"
   }
 }

@@ -198,13 +198,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9607909}
-  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &52377443
 GameObject:
@@ -229,7 +229,6 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 52377443}
-  serializedVersion: 2
   m_LocalRotation: {x: -0.21090177, y: -0.2705418, z: -0.14406103, w: 0.92821014}
   m_LocalPosition: {x: 0, y: 0.35, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -237,6 +236,7 @@ Transform:
   m_Children:
   - {fileID: 1560962681}
   m_Father: {fileID: 0}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -28, y: -30, z: -10}
 --- !u!1 &99667350
 GameObject:
@@ -313,13 +313,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 99667350}
-  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &731022208
 GameObject:
@@ -346,13 +346,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 731022208}
-  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -0.17364825, w: 0.9848078}
   m_LocalPosition: {x: 0, y: 0, z: 5}
   m_LocalScale: {x: 7, y: 7, z: 7}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1560962681}
+  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -20}
 --- !u!23 &731022210
 MeshRenderer:
@@ -525,7 +525,6 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1560962678}
-  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -533,6 +532,7 @@ Transform:
   m_Children:
   - {fileID: 731022209}
   m_Father: {fileID: 52377444}
+  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1560962682
 MonoBehaviour:
@@ -549,16 +549,15 @@ MonoBehaviour:
   <EdgeColor>k__BackingField: {r: 0.10196079, g: 0.054901965, b: 0.24705884, a: 1}
   <EdgeThreshold>k__BackingField: 1
   <EdgeContrast>k__BackingField: 0.2
-  <LowColor>k__BackingField: {r: 0.10168683, g: 0.054378778, b: 0.24528301, a: 1}
-  <HighColor>k__BackingField: {r: 1, g: 0, b: 0.24696922, a: 1}
-  <SplitLevel>k__BackingField: 0.45
+  <LowColor>k__BackingField: {r: 0.054901958, g: 0.24705882, b: 0.22047842, a: 1}
+  <HighColor>k__BackingField: {r: 0, g: 0.96077776, b: 1, a: 1}
+  <SplitLevel>k__BackingField: 0.38
   <BlackColor>k__BackingField: {r: 0, g: 0, b: 0, a: 1}
   <BlackLevel>k__BackingField: 0.1
   <WhiteColor>k__BackingField: {r: 1, g: 1, b: 1, a: 1}
   <WhiteLevel>k__BackingField: 0.9
-  <FillOpacity>k__BackingField: 1
-  <DitherType>k__BackingField: 2
-  <DitherStrength>k__BackingField: 0.15
+  <DitherType>k__BackingField: 3
+  <DitherStrength>k__BackingField: 0.671
   <Shader>k__BackingField: {fileID: -6465566751694194690, guid: 5d0f93ba092e5a545bab40b50ba2861e, type: 3}
 --- !u!1 &1766256033
 GameObject:
@@ -670,19 +669,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1766256033}
-  serializedVersion: 2
   m_LocalRotation: {x: 0.39098036, y: 0.2518072, z: -0.11211179, w: 0.8781563}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 48, y: 32, z: 0}
---- !u!1660057539 &9223372036854775807
-SceneRoots:
-  m_ObjectHideFlags: 0
-  m_Roots:
-  - {fileID: 52377444}
-  - {fileID: 1766256036}
-  - {fileID: 99667353}
-  - {fileID: 9607913}
